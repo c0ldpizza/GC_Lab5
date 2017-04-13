@@ -3,3 +3,4 @@ C:\Users\Charlie\Documents\Visual Studio 2015\Projects\Lab5\Lab5\bin\Debug\Lab5.
 C:\Users\Charlie\Documents\Visual Studio 2015\Projects\Lab5\Lab5\bin\Debug\Lab5.pdb
 C:\Users\Charlie\Documents\Visual Studio 2015\Projects\Lab5\Lab5\obj\Debug\Lab5.exe
 C:\Users\Charlie\Documents\Visual Studio 2015\Projects\Lab5\Lab5\obj\Debug\Lab5.pdb
+C:\Users\Charlie\Documents\Visual Studio 2015\Projects\Lab5\Lab5\obj\Debug\Lab5.csprojResolveAssemblyReference.cache

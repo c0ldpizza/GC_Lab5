@@ -24,10 +24,18 @@ namespace Lab5
 
             do
             {
-                GetDiceSides("first");
-                GetDiceSides("second");
+                Console.Clear();
+
+                int diceOne = GetDiceSides("first");
+                int diceTwo = GetDiceSides("second");
 
                 //Roll Dice
+
+
+                int rollOne = RollDice(diceOne);
+                int rollTwo = RollDice(diceTwo);
+
+                Console.WriteLine("The results were {0} and {1}!\n", rollOne, rollTwo);
 
                 Console.WriteLine("Do you want to continue rolling? (y/n)");
 
@@ -48,9 +56,11 @@ namespace Lab5
         {
             Console.WriteLine("How many sides does the {0} die have?", nth);
             int sides = GetPositiveInt();
+            Console.WriteLine();
             return sides;
 
         }
+
         //Validates that input is an integer
         public static int GetValidInput()
         {
@@ -62,6 +72,15 @@ namespace Lab5
 
             return input;
         }
+
+        //rolls dice using rng
+        public static int RollDice(int sides)
+        {
+            Random rnd = new Random();
+            int result = rnd.Next(1, sides);
+            return result;
+        }
+
         //Validates that integer is within a given range
         public static int GetPositiveInt()
         {
